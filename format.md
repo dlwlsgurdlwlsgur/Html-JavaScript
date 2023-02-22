@@ -1,3 +1,4 @@
+# format문
 ```
 <script>
     if (!String.format) {
