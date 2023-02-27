@@ -1,4 +1,4 @@
-# Hide Input & A       
+# Hide Input & Alert input_data
 ```
     <button onclick="hide_input('a');">삭제&추가</button>
     <button onclick="data('a');">확인</button>
