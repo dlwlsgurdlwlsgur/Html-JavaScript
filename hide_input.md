@@ -14,7 +14,7 @@
         function data(id){
             var x = document.getElementById(id);
             if (document.getElementById(id).style.display != "none") {
-                pass;
+                alert("성공");
             }}  
     </script>
 ```
