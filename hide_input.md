@@ -13,10 +13,8 @@
         }} 
         function data(id){
             var x = document.getElementById(id);
-            if (x.style.display === "none") {
+            if (document.getElementById(id).style.display != "none") {
                 pass;
-            } else {
-                alert(document.getElementById(id).value);
             }}  
     </script>
 ```
