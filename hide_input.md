@@ -13,11 +13,7 @@
             } else {
                 document.getElementById(id).style.display = "none";
             }} 
-
-        function data(id){
-            if (document.getElementById(id).style.display != "none") {
-                alert("성공");
-            }}  
+            
     </script>
 ```
 
@@ -37,10 +33,18 @@
                 }else {
                     document.getElementById(id[i]).style.display = "none";
                 }}}
-
-        function data(id){
-            if (document.getElementById(id).style.display != "none") {
-                alert("성공");
-            }}  
     </script>
+```
+
+# input이 none(숨김)이 아니라면 데이터 가져오기
+```
+        function data(id){
+            for(i in id){
+                check = 1;
+                if (document.getElementById(id[i]).style.display != "none") {
+                    check = 0
+                }}
+            if (check == 0){
+                alert('성rhd')
+            }}
 ```
