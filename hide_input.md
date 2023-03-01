@@ -24,7 +24,7 @@
 
 # 다중 개체
 ```
-    <button onclick="hide_input(['a', 'b', '])">삭체&추가</button><br><br>
+    <button onclick="hide_input(['a', 'b', 'c'])">삭체&추가</button><br><br>
     <input id="a"; type="text"; placeholder=""; size="30"; style="display : none";>
     <input id="b"; type="text"; placeholder=""; size="30"; style="display : none";>
     <input id="c"; type="text"; placeholder=""; size="30"; style="display : none";>
