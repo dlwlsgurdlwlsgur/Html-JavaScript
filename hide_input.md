@@ -5,12 +5,13 @@
 
     <input id="a" type="text" placeholder="" size="30" style="display : none";>
     <script>
-        function hide_input(id) {
-        if (document.getElementById(id).style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }} 
+        function hide_input(id){
+            if (document.getElementById(id).style.display === "none") {
+                document.getElementById(id).style.display = "block";
+            } else {
+                document.getElementById(id).style.display = "none";
+            }} 
+
         function data(id){
             var x = document.getElementById(id);
             if (document.getElementById(id).style.display != "none") {
