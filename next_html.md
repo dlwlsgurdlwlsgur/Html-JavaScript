@@ -1,0 +1,8 @@
+# 현재 페이지에서 다른 페이지으로 이동하기
+```
+    <button onclick="location.href='index.html'">text</button >
+```
+# 새 페이지에서 다른 페이지 열기
+```
+    <button onclick="window.open('index.html')">text</button >
+```
